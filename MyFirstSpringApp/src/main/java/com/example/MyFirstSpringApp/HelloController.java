@@ -14,14 +14,24 @@ public class HelloController {
     	logger.error("Inside hello b4 return");
         return "Hello, Spring Boot!";
     }
-    @GetMapping("/error")
+    @GetMapping("/say")
     public String error() {
-    	logger.error("Inside error b4 return");
+    	logger.error("Inside say b4 return");
         return "error, Spring Boot!";
     }
     @GetMapping("/call")
     public String call() {
     	logger.error("Inside call b4 return");
         return "call, Spring Boot!";
+    }
+    @GetMapping("/add")
+    public String add() {
+    	logger.error("Inside add b4 return");
+        return "add, Spring Boot!";
+    }
+    @GetMapping("/sub")
+    public String sub() {
+    	logger.error("Inside sub b4 return");
+        return "sub, Spring Boot!";
     }
 }
