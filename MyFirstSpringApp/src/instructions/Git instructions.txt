@@ -1,5 +1,7 @@
 How to get the remote code to local 
 
+*******************************************************************************************************************************************
+
 Pre-requisite:
 1.Username and pswd will be crated by the organisation ppl
 
@@ -10,7 +12,7 @@ step:
 4.git clone repository URL -->( ex:git clone https://github.com/userbosu/practice.git )
 5.Navigate to folder where .git folder is available
 6.check the branch name using the command --------> git branch  -- which will display the current branch like master/main etc.
-
+*******************************************************************************************************************************************
 
 How to create branch and push the code remote repository
 1.create branch using the command --> git branch branchname (ex:git branch chinni-aug04)
@@ -25,4 +27,11 @@ How to create branch and push the code remote repository
 10.After Pushing the code create a Pull request to our required branch (Main/Master/etc)--> This will be created in github site 
 	.There we can add reviewers and will create a Pull Request.
 11.Reviewers will review the code and will provide the comments,if there are no merge conflicts branch will be merged.
- 
+
+*******************************************************************************************************************************************
+To switch from one branch to another branch by using the command git checkout branchname
+
+Branching strategy
+1.There will be 2 branches
+i).Main /Master  --> Where production will maintain
+ii).Release branch --> From here developers will take code and made changes as per their feature.
